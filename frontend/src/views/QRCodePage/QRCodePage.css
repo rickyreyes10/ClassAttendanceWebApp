@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfc8bb; /* Use your preferred background color here */
+    font-family: 'Roboto', sans-serif;
+}
+
+.QR_Code-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.QR_Code-page-h1 {
+    color: rgb(209, 202, 202);
+    margin-bottom: 40px; /* Increase spacing */
+    font-weight: 600; /* Make it bold */
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for example */
+    background-color: rgba(0, 0, 0, 0.03); /* Semi-transparent black */
+    display: inline; /* To keep background close to text */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.QR_Code-register-btn, .QR_Code-retrieve-btn {
+    width: 365px;
+    padding: 40px 80px; /* More padding */
+    font-size: 25px;
+    margin: 20px 0; /* More margin */
+    border: none;
+    cursor: pointer;
+    border-radius: 57px; /* Rounded edges */
+    transition: background-color 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.QR_Code-register-btn {
+    background: #00704A; /* A shade of green */
+    color: white;
+}
+
+.QR_Code-retrieve-btn {
+    background-color: #0055B8; /* A shade of blue */
+    color: white;
+}
+
+.QR_Code-register-btn:hover {
+    background: #005938  /* a darker shade of the original to indicate hovering */
+}
+
+.QR_Code-retrieve-btn:hover {
+    background-color: #003D94  /* a darker shade of the original to indicate hovering */
+}
+
+.qr-webcam-container {
+    width: 65%; /* Or 100% if you want it to be responsive */
+    height: 600px; /* Adjust as necessary */
+    margin: 0 auto; /* Centers the webcam feed if width is less than 100% */
+    border-radius: 60px; /* Optional: Rounds the corners */
+    overflow: hidden; /* Ensures the video feed doesn't overflow the rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+    background: #000000; /* Provides a black background where the video doesn't cover */
+}
+
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the modal in the viewport */
+    z-index: 1000; /* Ensure it sits above other content */
+  }
+  
+  .Modal {
+    background: #fff;
+    width: 500px; /* Fixed width */
+    max-width: 100%; /* Responsive max-width */
+    padding: 20px;
+    position: relative;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    gap: 10px; /* Spacing between content */
+  }
+  
+  .Modal h2 {
+    margin-bottom: 20px; /* Spacing below the title */
+  }
+  
+  .Modal input {
+    width: 100%; /* Full-width inputs */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional: rounded input boxes */
+  }
+  
+  .Modal button {
+    padding: 10px 20px;
+    background-color: #00704A; /* Use the green color from your buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Modal button:hover {
+    background-color: #005938; /* Darken the button on hover */
+  }
+
+  .qr-code-image-container {
+    margin-top: 20px; /* Add some space above the QR code */
+    padding: 10px; /* Add some padding around the QR code */
+    background: #ffffff; /* White background to contrast with the QR code */
+    border: 1px solid #ddd; /* A light border around the QR code image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds subtle shadow for depth */
+    display: flex; /* Use flex to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    border-radius: 10px; /* Optional: rounded corners for the container */
+    max-width: 400px; /* Maximum width of the container */
+    margin-bottom: 20px; /* Space below the container */
+}
+
+.qr-code-image-container img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 400px; /* Maximum height of the QR code */
+}

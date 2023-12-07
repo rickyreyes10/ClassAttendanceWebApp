@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfc8bb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prof-options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.prof-options-h1 {
+    color: rgb(209, 202, 202);
+    margin-bottom: 40px; /* Increase spacing */
+    font-weight: 600; /* Make it bold */
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for example */
+    background-color: rgba(0, 0, 0, 0.01); /* Semi-transparent black */
+    display: inline; /* To keep background close to text */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.prof-options-h2 {
+    color: rgb(209, 202, 202);
+    font-weight: 600;
+    font-size: 2.0em;
+    margin-bottom: 20px; /* Increase spacing */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for example */
+    background-color: rgba(0, 0, 0, 0.01); /* Semi-transparent black */
+    display: inline; /* To keep background close to text */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.loginOption-btn, .createOption-btn, .deleteOption-btn {
+    padding: 40px 80px; /* More padding */
+    font-size: 35px;
+    margin: 20px 0; /* More margin */
+    border: none;
+    cursor: pointer;
+    border-radius: 57px; /* Rounded edges */
+    transition: background-color 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Blue button for Login */
+.loginOption-btn {
+    background-color: #0055B8; /* A shade of blue */
+    color:white;
+}
+
+.loginOption-btn:hover {
+    background-color: #003D94; /* Darker shade when hovered */
+}
+
+/* Green button for Create */
+.createOption-btn {
+    background-color: #00704A; /* A shade of green */
+    color: white;
+}
+
+.createOption-btn:hover {
+    background-color: #005938; /* Darker shade when hovered */
+}
+
+/* Red button for Delete */
+.deleteOption-btn {
+    background-color: #D32F2F; /* A shade of red */
+    color: white;
+}
+
+.deleteOption-btn:hover {
+    background-color: #C1272D; /* Darker shade when hovered */
+}

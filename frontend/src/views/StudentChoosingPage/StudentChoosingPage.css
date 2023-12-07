@@ -1,0 +1,58 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfc8bb; /* Use your preferred background color here */
+    font-family: 'Roboto', sans-serif;
+}
+
+.Student_ChoosingPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Student_ChoosingPage-h1 {
+    text-align: center;  /* center text horizontally */
+    color: rgb(209, 202, 202);
+    margin-bottom: 40px; /* Increase spacing */
+    font-weight: 600; /* Make it bold */
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for example */
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent black */
+    display: inline; /* To keep background close to text */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.facial_recognition-btn, .qr_code-btn {
+    width: 480px;
+    padding: 40px 80px; /* More padding */
+    font-size: 35px;
+    margin: 20px 0; /* More margin */
+    border: none;
+    cursor: pointer;
+    border-radius: 57px; /* Rounded edges */
+    transition: background-color 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    display: inline-block;
+    text-align: center;
+}
+
+.facial_recognition-btn {
+    background: #00704A; /* A shade of green */
+    color: white;
+}
+
+.qr_code-btn {
+    background-color: #0055B8; /* A shade of blue */
+    color: white;
+}
+
+.facial_recognition-btn:hover {
+    background: #005938  /* a darker shade of the original to indicate hovering */
+}
+
+.qr_code-btn:hover {
+    background-color: #003D94  /* a darker shade of the original to indicate hovering */
+}

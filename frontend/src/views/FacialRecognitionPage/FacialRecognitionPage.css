@@ -1,0 +1,119 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfc8bb; /* Use your preferred background color here */
+    font-family: 'Roboto', sans-serif;
+}
+
+.facial_recognition-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.facial_recognition-page-h1 {
+    color: rgb(209, 202, 202);
+    margin-bottom: 40px; /* Increase spacing */
+    font-weight: 600; /* Make it bold */
+    font-size: 3.5em;
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for example */
+    background-color: rgba(0, 0, 0, 0.03); /* Semi-transparent black */
+    display: inline; /* To keep background close to text */
+    padding: 10px; /* Add some padding around the text */
+}
+
+.facial_recognition-login-btn, .facial_recognition-register-btn {
+    width: 300px;
+    padding: 40px 80px; /* More padding */
+    font-size: 30px;
+    margin: 20px 0; /* More margin */
+    border: none;
+    cursor: pointer;
+    border-radius: 57px; /* Rounded edges */
+    transition: background-color 0.3s;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.facial_recognition-login-btn {
+    background: #00704A; /* A shade of green */
+    color: white;
+}
+
+.facial_recognition-register-btn {
+    background-color: #0055B8; /* A shade of blue */
+    color: white;
+}
+
+.facial_recognition-login-btn:hover {
+    background: #005938  /* a darker shade of the original to indicate hovering */
+}
+
+.facial_recognition-register-btn:hover {
+    background-color: #003D94  /* a darker shade of the original to indicate hovering */
+}
+
+.fr-webcam-container {
+    width: 65%; /* Or 100% if you want it to be responsive */
+    height: 500px; /* Adjust as necessary */
+    margin: 0 auto; /* Centers the webcam feed if width is less than 100% */
+    border-radius: 60px; /* Optional: Rounds the corners */
+    overflow: hidden; /* Ensures the video feed doesn't overflow the rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+    background: #000; /* Provides a black background where the video doesn't cover */
+}
+
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the modal in the viewport */
+    z-index: 1000; /* Ensure it sits above other content */
+  }
+  
+  .Modal {
+    background: #fff;
+    width: 500px; /* Fixed width */
+    max-width: 100%; /* Responsive max-width */
+    padding: 20px;
+    position: relative;
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: box shadow for depth */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+    gap: 10px; /* Spacing between content */
+  }
+  
+  .Modal h2 {
+    margin-bottom: 20px; /* Spacing below the title */
+  }
+  
+  .Modal input {
+    width: 100%; /* Full-width inputs */
+    padding: 10px;
+    margin-bottom: 10px; /* Spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Optional: rounded input boxes */
+  }
+  
+  .Modal button {
+    padding: 10px 20px;
+    background-color: #00704A; /* Use the green color from your buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Modal button:hover {
+    background-color: #005938; /* Darken the button on hover */
+  }
