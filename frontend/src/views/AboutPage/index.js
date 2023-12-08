@@ -7,17 +7,17 @@ const About = () => {
     <div className="about-container">
       <section>
       <h1>About Us</h1>
-      <p >Class Attendance Using Facial Recognition is the leading-edge solution tailored to meet the modern demands of academic class management and attendance tracking. Our innovative platform is meticulously crafted to cater to the unique needs of both educators and students, streamlining the attendance process with cutting-edge facial recognition technology.
-      For professors, our system offers an unparalleled blend of simplicity and efficiency. Set up your classes with just a few clicks and let our robust facial recognition software automatically record attendance as students enter the classroom. No more manual roll calls or cumbersome sign-in sheets; instead, enjoy a real-time attendance dashboard that offers instant insights into student participation.
-      Students benefit from a hassle-free check-in process that respects their time and privacy. With our secure facial recognition technology, students simply show up to class and are instantly accounted for, allowing them to focus on the learning experience without the interruption of traditional attendance methods.
-      Behind the scenes, our platform employs the most stringent security measures to protect personal data, ensuring that privacy is upheld to the highest standard. We're committed to the responsible use of technology, and our system is designed to be both GDPR and FERPA compliant.
-      As the landscape of education continues to evolve, so too does our platform. We are constantly refining our algorithms, enhancing our features, and expanding our services to provide an experience that not only meets but exceeds the expectations of our academic institutions and their students.
+      <p >The leading-edge solution for class management and attendance tracking, Class Attendance Using Facial Recognition, is the solution for today's academic classes. Educators and students alike benefit from our cutting-edge facial recognition technology, which streamlines the attendance process.
+
+      Professors benefit from our system's unparalleled simplicity and efficiency. Just a few clicks and our robust facial recognition software will automatically record attendance for you. 
+      During check-in, students benefit from a hassle-free and confidential process. By using facial recognition technology, students can show up at class and be instantly accounted for, allowing them to focus on learning instead of traditional attendance procedures.
+      Behind the scenes, our platform employs the most stringent security measures to protect personal data, ensuring that privacy is upheld to the highest standard. As the landscape of education continues to evolve, so too does our platform. We are constantly refining our algorithms, enhancing our features, and expanding our services to provide an experience that not only meets but exceeds the expectations of our academic institutions and their students.
       Choose Class Attendance Using Facial Recognition and join a growing network of educational institutions that are embracing the future of attendance management. Our mission is to empower your academic journey with technology that is reliable, efficient, and forward-thinking.</p>
       </section>
       <section>
         <h1>Our Mission</h1>
-        <p>At the heart of Class Attendance Using Facial Recognition, our mission is to transform the educational landscape by providing educators and students with powerful, intuitive technology that simplifies academic administration and elevates the learning experience. We believe that managing and tracking attendance should be effortless, allowing educators to devote more time to teaching and students to learning.
-        We are committed to bridging the gap between advanced technology and everyday classroom needs. By harnessing the potential of facial recognition for attendance tracking, we offer a solution that not only streamlines administrative tasks but also provides actionable insights into classroom dynamics.
+        <p>A Class Attendance Using Facial Recognition is dedicated to transforming the educational landscape by offering educators and students powerful, intuitive technology that simplifies academic administration and elevates the learning experience. Managed and tracked attendance should be effortless, allowing educators to focus on teaching and students to learn more. By harnessing the potential of facial recognition for attendance tracking, 
+        we offer a solution that not only streamlines administrative tasks but also provides actionable insights into classroom dynamics.
         Our vision is to create a more connected and engaged learning environment. Through our platform, we aim to foster a culture of attendance and participation that is essential for academic success. We strive to support educational institutions in their pursuit of excellence and to provide students with the tools they need to succeed academically.
         Innovation lies at the core of our approach. We continuously seek out new ways to enhance our platform, ensuring that it remains at the forefront of educational technology. We listen to the educators and students who use our system, adapting and evolving to meet their changing needs.
         By partnering with Class Attendance Using Facial Recognition, educational communities gain more than just a product—they gain a dedicated ally in the quest to enhance teaching and learning outcomes. Together, we are setting new standards for academic excellence and building a future where technology and education go hand in hand.</p>
@@ -29,14 +29,14 @@ const About = () => {
        </p>
   <ul>
     <li><strong>Automated Attendance Tracking:</strong> Real-time, accurate attendance logging using facial recognition technology.</li>
-    <li><strong>Seamless Integration:</strong> Easy integration with existing school management systems and academic software.</li>
+    <li><strong>Seamless Integration:</strong> Easy integration with existing classes and role call.</li>
     <li><strong>Accessible Anywhere:</strong> Manage your classes from any device, anywhere, at any time.</li>
     <li><strong>Enhanced Classroom Experience:</strong> Dedicate more time to engaging students with impactful teaching, supported by our efficient attendance management.</li>
   </ul>
       </section>
       <section>
         <h1>Features for Students</h1>
-        <p>Our state-of-the-art system empowers students with a seamless process for marking attendance, harnessing the latest advancements in facial recognition and QR code technology. This dual-modality approach ensures that students have access to a convenient and flexible attendance experience that fits a variety of classroom settings.
+        <p>Our state-of-the-art system empowers students with a seamless process for marking attendance, using built-in technologies from the Python library. This dual-modality approach ensures that students have access to a convenient and flexible attendance experience that fits a variety of classroom settings.
         With facial recognition, students can simply walk into the classroom, and our system will instantly recognize and verify their attendance, allowing them to settle into their learning environment without any manual check-ins. This touchless system not only saves time but also enhances security, as it's designed to recognize each student accurately.
         Alternatively, our QR code technology provides a quick and easy method for attendance. At the start of each class, students can scan a unique QR code provided by the professor using their smartphones or devices. This method is particularly useful for large lectures or when students are attending sessions remotely.
         In addition to these attendance methods, our platform offers students the ability to view their attendance records in real-time, giving them the transparency to monitor their own attendance patterns and maintain accountability for their academic commitments.
@@ -45,7 +45,7 @@ const About = () => {
       </section>
       <section>
         <h1>Innovative Technology</h1>
-        <p>At the forefront of our values is a steadfast commitment to innovation, where we actively seek out and integrate the latest technological advancements into our Class Attendance System. This commitment ensures that our platform remains at the cutting edge of educational technology, providing an unmatched experience for both educators and students.
+        <p>At the forefront of our values is a steadfast commitment to innovation, where we actively integrate the newest technologies inside of our system. This commitment ensures that our platform remains at the cutting edge of educational technology, providing an unmatched experience for both educators and students.
         We believe that embracing innovation is key to fostering an adaptive learning environment. Therefore, our team continually explores emerging technologies, evaluates their potential impact on education, and integrates those that offer significant benefits into our platform. From improvements in facial recognition accuracy to the implementation of faster and more reliable QR code scanning, we ensure that our system uses the most advanced and effective tools available.
         Our agile development approach means that we can quickly respond to the evolving technological landscape, ensuring that our platform not only keeps pace with change but often leads the way. We regularly release updates that enhance functionality, improve user interface design, and introduce new features that respond to the needs of our users.
         Moreover, we actively solicit feedback from our community of users, as this informs our innovation process. By understanding the challenges and opportunities that professors and students face, we can tailor our enhancements to meet their needs directly. It is through this collaborative effort that our platform continues to evolve and support the pursuit of academic excellence.
